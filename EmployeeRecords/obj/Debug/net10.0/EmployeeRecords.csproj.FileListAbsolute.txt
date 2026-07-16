@@ -1,0 +1,14 @@
+D:\EmployeeRecords\bin\Debug\net10.0\EmployeeRecords.exe
+D:\EmployeeRecords\bin\Debug\net10.0\EmployeeRecords.deps.json
+D:\EmployeeRecords\bin\Debug\net10.0\EmployeeRecords.runtimeconfig.json
+D:\EmployeeRecords\bin\Debug\net10.0\EmployeeRecords.dll
+D:\EmployeeRecords\bin\Debug\net10.0\EmployeeRecords.pdb
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.GeneratedMSBuildEditorConfig.editorconfig
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.AssemblyInfoInputs.cache
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.AssemblyInfo.cs
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.csproj.CoreCompileInputs.cache
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.dll
+D:\EmployeeRecords\obj\Debug\net10.0\refint\EmployeeRecords.dll
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.pdb
+D:\EmployeeRecords\obj\Debug\net10.0\EmployeeRecords.genruntimeconfig.cache
+D:\EmployeeRecords\obj\Debug\net10.0\ref\EmployeeRecords.dll

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EmployeeRecords\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A912315-64FC-4BC3-8CCA-F3686C3D498F}|EmployeeRecords.csproj|d:\\employeerecords\\mainentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A912315-64FC-4BC3-8CCA-F3686C3D498F}|EmployeeRecords.csproj|solutionrelative:mainentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A912315-64FC-4BC3-8CCA-F3686C3D498F}|EmployeeRecords.csproj|d:\\employeerecords\\employeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A912315-64FC-4BC3-8CCA-F3686C3D498F}|EmployeeRecords.csproj|solutionrelative:employeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeInfo.cs",
+              "DocumentMoniker": "D:\\EmployeeRecords\\EmployeeInfo.cs",
+              "RelativeDocumentMoniker": "EmployeeInfo.cs",
+              "ToolTip": "D:\\EmployeeRecords\\EmployeeInfo.cs",
+              "RelativeToolTip": "EmployeeInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:43:46.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainEntry.cs",
+              "DocumentMoniker": "D:\\EmployeeRecords\\MainEntry.cs",
+              "RelativeDocumentMoniker": "MainEntry.cs",
+              "ToolTip": "D:\\EmployeeRecords\\MainEntry.cs",
+              "RelativeToolTip": "MainEntry.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:43:25.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
