@@ -1,0 +1,47 @@
+@model List<MovieTicketBooking.Web.Services.FreeMovie>
+@{
+    ViewData["Title"] = "Free Movies";
+    var q = ViewBag.Query as string;
+    var page = (int)(ViewBag.Page ?? 1);
+}
+<section class="page-head">
+  <div>
+    <span class="eyebrow">LEGAL • FREE TO WATCH</span>
+    <h1>Public-Domain Movies</h1>
+    <p>Stream movies that are listed as public domain by Internet Archive. No subscription required.</p>
+  </div>
+  <form class="search" method="get">
+    <input name="q" value="@q" placeholder="Search free movies…" />
+    <button>Search</button>
+  </form>
+</section>
+
+@if (Model.Count == 0)
+{
+  <div class="empty"><h2>No playable titles found</h2><p>Try another search, or refresh the page. Availability depends on the Internet Archive item and its video formats.</p></div>
+}
+else
+{
+  <div class="free-grid">
+  @foreach (var m in Model)
+  {
+    <article class="free-card">
+      <div class="video-wrap"><video controls preload="metadata" poster="~/images/no-poster.svg"><source src="@m.VideoUrl" type="video/mp4">Your browser cannot play this video.</video></div>
+      <div class="free-info">
+        <span class="pill">FREE</span>
+        <h2>@m.Title</h2>
+        <small>@m.Year</small>
+        <p>@m.Description</p>
+        <div class="actions"><a class="btn" href="@m.ArchiveUrl" target="_blank" rel="noopener">Archive details</a></div>
+      </div>
+    </article>
+  }
+  </div>
+  <div class="pager">
+    @if(page > 1){<a class="btn" href="?q=@Uri.EscapeDataString(q ?? "")&page=@(page-1)">← Previous</a>}
+    <span>Page @@page</span>
+    <a class="btn" href="?q=@Uri.EscapeDataString(q ?? "")&page=@(page+1)">Next →</a>
+  </div>
+}
+
+<div class="rights-note">Free access does not automatically mean every Internet Archive upload is reusable. This section only searches items marked <strong>Public Domain</strong>; always check the individual Archive item for rights information before redistributing content. citeturn0search1turn0search10</div>

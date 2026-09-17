@@ -1,0 +1,17 @@
+@model MovieTicketBooking.Web.Models.HomeVm
+<section class="hero hero-pro">
+  <div class="hero-copy"><p class="eyebrow">CINEBOOK • YOUR MOVIE NIGHT</p><h1>Search <span>any movie.</span><br>Book the big screen.</h1><p>Search a huge movie catalogue, discover posters, ratings and release dates, then book a CineBook show when it is scheduled.</p><div class="hero-actions"><a class="primary" href="#movies">Search Movies</a><a class="ghost" href="#shows">Browse Shows →</a></div><div class="hero-trust"><span>★ Live movie catalogue</span><span>•</span><span>Instant search</span><span>•</span><span>Seat booking</span></div></div>
+  <div class="hero-poster"><div class="poster-glow"></div><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=85" alt="Cinema"><div class="poster-label"><span>NOW PLAYING</span><b>Find your next film.</b></div></div>
+</section>
+
+<section id="movies" class="section section-tight">
+  <div class="section-head"><div><p class="eyebrow">TMDB MOVIE CATALOGUE</p><h2>Search any movie</h2></div><div class="movie-tools"><input id="movieSearch" class="search" placeholder="🔎 Try Interstellar, Dune, 3 Idiots..." autocomplete="off"></div></div>
+  <div class="api-status" id="apiStatus">Loading popular movies…</div>
+  <div id="movieGrid" class="grid"></div>
+  <div id="movieLoading" class="empty hidden">Loading movies…</div>
+  <div id="noMovies" class="empty hidden">No movies found. Try another title.</div>
+  <div class="load-more-wrap"><button id="loadMore" class="ghost hidden">Load more</button></div>
+</section>
+
+<section id="shows" class="section shows-section"><div class="section-head"><div><p class="eyebrow">CINEBOOK SHOWTIMES</p><h2>Choose a scheduled show</h2></div></div><div class="show-filters"><select id="cityFilter"><option value="all">All cities</option>@foreach(var c in Model.Shows.Select(x=>x.Theatre.City).Distinct()){<option value="@c">@c</option>}</select><select id="movieFilter"><option value="all">All movies</option>@foreach(var m in Model.Movies){<option value="@m.MovieName">@m.MovieName</option>}</select></div><div id="showGrid" class="show-grid">@foreach(var x in Model.Shows){<div class="show-card" data-city="@x.Theatre.City" data-movie="@x.Movie.MovieName"><div class="show-main"><div class="show-icon">🎬</div><div><strong>@x.Movie.MovieName</strong><p>@x.Theatre.TheatreName <span>•</span> @x.Theatre.City</p><small>@x.Show.StartDate.ToString("ddd, dd MMM • hh:mm tt")</small></div></div><div class="show-right"><span class="availability"><b>@x.AvailableSeats</b> seats left</span><a class="primary small" href="/Booking/Select?id=@x.Show.ShowID">Book now</a></div></div>}</div></section>
+<section class="section benefits"><div><span>🌐</span><b>Huge catalogue</b><p>Search movies beyond the local seed list.</p></div><div><span>🔎</span><b>Instant search</b><p>Results update from the live movie API.</p></div><div><span>💺</span><b>Live seats</b><p>Book scheduled shows with real seat status.</p></div><div><span>🎟️</span><b>Digital booking</b><p>Keep your confirmed bookings in one place.</p></div></section>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotnetProjects\\EmployeeRecords\\EmployeeRecords.csproj": {}
+    "C:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\EmployeeRecords.csproj": {}
   },
   "projects": {
-    "D:\\DotnetProjects\\EmployeeRecords\\EmployeeRecords.csproj": {
+    "C:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\EmployeeRecords.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotnetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
+        "projectUniqueName": "C:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
         "projectName": "EmployeeRecords",
-        "projectPath": "D:\\DotnetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
+        "projectPath": "C:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
         "packagesPath": "C:\\Users\\Azaansbg\\.nuget\\packages\\",
-        "outputPath": "D:\\DotnetProjects\\EmployeeRecords\\obj\\",
+        "outputPath": "C:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

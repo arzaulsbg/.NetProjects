@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotnetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
+      "projectUniqueName": "c:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
       "projectName": "EmployeeRecords",
-      "projectPath": "D:\\DotnetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
+      "projectPath": "c:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\EmployeeRecords.csproj",
       "packagesPath": "C:\\Users\\Azaansbg\\.nuget\\packages\\",
-      "outputPath": "D:\\DotnetProjects\\EmployeeRecords\\obj\\",
+      "outputPath": "c:\\Users\\Azaansbg\\OneDrive\\Desktop\\pj\\MovieTicketBookingSystem\\.NetProjects\\EmployeeRecords\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
